@@ -5,5 +5,5 @@ if st.button("Провери"):
   if name.strip() == " ":
     st.warning ("Моля въведи текст")
   elif not name is alpha():
-st.warning("------")
+    st.warning("------")
 else: st.success("Текста е въведен правилно")

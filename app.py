@@ -4,6 +4,6 @@ name = st.text_input("Въведи име")
 if st.button("Провери"):
   if name.strip() == " ":
     st.warning ("Моля въведи текст")
-  elif not name is alpha():
+  elif not name.isalpha():
     st.warning("------")
 else: st.success("Текста е въведен правилно")
